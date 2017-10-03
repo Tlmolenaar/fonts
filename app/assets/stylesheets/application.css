@@ -1,0 +1,257 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@font-face {
+	font-family: 'Avant-Garde Bold';
+	src:url('fonts/AvantGarGotItcTEEDem.ttf');
+}
+
+.agb{
+	font-family: 'Avant-Garde Bold'
+}
+
+@font-face {
+	font-family: 'Avant-Garde';
+	src:url('fonts/AvantGardeGothicC-Book.otf');
+}
+
+.ag{
+	font-family: 'Avant-Garde';
+}
+
+@font-face {
+	font-family: 'Avenir';
+	src:url('fonts/Avenir-Book.otf');
+}
+
+.av{
+	font-family: 'Avenir';
+}
+
+@font-face {
+	font-family: 'Avenir-heavy';
+	src:url('fonts/Avenir-Heavy.otf');
+}
+
+.avh{
+	font-family: 'Avenir-Heavy';
+}
+
+@font-face {
+	font-family: 'Garamond bold';
+	src:url('fonts/Garamond bold.ttf');
+}
+
+.garb{
+	font-family: 'Garamond bold';
+}
+
+@font-face {
+	font-family: 'Garamond italic';
+	src:url('fonts/Garamond-Italic.ttf');
+}
+
+.gari{
+	font-family: 'Garamond italic';
+}
+
+@font-face {
+	font-family: 'Garamond';
+	src:url('fonts/Garamond.ttf');
+}
+
+.gar{
+	font-family: 'Garamond';
+}
+
+@font-face {
+	font-family: 'Gotham';
+	src:url('fonts/Gotham-Black.otf');
+}
+
+.got{
+	font-family: 'Gotham';
+}
+
+@font-face {
+	font-family: 'Helvetica bold';
+	src:url('fonts/Helvetica-Bold.ttf');
+}
+
+.helb{
+	font-family: 'Helvetica bold';
+}
+
+@font-face {
+	font-family: 'Helvetica-Light';
+	src:url('fonts/Helvetica-Light.ttf');
+}
+
+.hell{
+	font-family: 'Helvetica-Light';
+}
+
+@font-face {
+	font-family: 'Helvetica';
+	src:url('fonts/Helvetica.ttf');
+}
+
+.hel{
+	font-family: 'Helvetica';
+}
+
+@font-face {
+	font-family: 'Helvetica Neue light';
+	src:url('fonts/HelveticaNeue-UltraLight.otf');
+}
+
+.henl{
+	font-family: 'Helvetica Neue light';
+}
+
+@font-face {
+	font-family: 'Helvetica Neue bold';
+	src:url('fonts/HelveticaNeue-Bold.otf');
+}
+
+.henb{
+	font-family: 'Helvetica Neue bold';
+}
+
+@font-face {
+	font-family: 'Helvetica Neue';
+	src:url('fonts/HelveticaNeue.otf');
+}
+
+.hen{
+	font-family: 'Helvetica Neue';
+}
+
+@font-face {
+	font-family: 'Proxima-Nova bold';
+	src:url('fonts/proxima-nova-bold.ttf');
+}
+
+.prob{
+	font-family: 'Proxima-Nova bold';
+}
+
+@font-face {
+	font-family: 'Proxima-Nova';
+	src:url('fonts/proxima-nova-regular.ttf');
+}
+
+.prox{
+	font-family: 'Proxima-Nova';
+}
+
+@font-face {
+	font-family: 'Proxima-Nova thin';
+	src:url('fonts/proxima-nova-thin.ttf');
+}
+
+.prot{
+	font-family: 'Proxima-Nova thin';
+}
+
+body{
+	font-family: 'Helvetica Neue';
+	margin: 0px;
+}
+
+
+.links a{
+	
+	margin-top: 25px;
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-size: 64px;
+	line-height: 1.1em;
+}
+
+.links-black a{
+	margin-top: 25px;
+	display: block;
+	text-decoration: none;
+	color: black;
+	font-size: 64px;
+	line-height: 1.1em
+}
+
+h1{
+	font-size: 48px;
+	line-height: 1.1em;
+}
+
+h2{
+	font-size: 28px;
+	line-height: 1.15em;
+}
+
+h3{
+	font-size:17px;
+	line-height: 1.25em;
+}
+
+.white{
+	padding: 40px;
+}
+
+.blue{
+	background: #00366d;
+	padding: 40px;
+	margin: 0;
+	color: white;
+}
+
+.blue-index{
+	background: #00366d;
+	padding: 40px;
+	color: white;
+	margin: 20px;
+	max-width: 60%;
+	  box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
+
+}
+
+.yellow{
+	background: #fdde38;
+	padding: 40px;
+	margin: 0;
+}
+
+.yellow-index{
+	background: #fdde38;
+	padding: 40px;
+	position: absolute;
+	right: 100px;
+	top: 280px;
+	width: 40%;
+	z-index: 50px;
+	  box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
+
+}
+
+.icon-black{
+	font-size: 48px;
+	color:black;
+}
+
+.icon-white{
+	font-size: 48px;
+	color: white;
+}
