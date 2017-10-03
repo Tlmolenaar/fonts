@@ -16,7 +16,7 @@
 
 @font-face {
 	font-family: 'Avant-Garde Bold';
-	src:url('fonts/AvantGarGotItcTEEDem.ttf');
+	src:font-url('AvantGarGotItcTEEDem.ttf');
 }
 
 .agb{
@@ -25,7 +25,7 @@
 
 @font-face {
 	font-family: 'Avant-Garde';
-	src:url('fonts/AvantGardeGothicC-Book.otf');
+	src:font-url('AvantGardeGothicC-Book.otf');
 }
 
 .ag{
@@ -34,7 +34,7 @@
 
 @font-face {
 	font-family: 'Avenir';
-	src:url('fonts/Avenir-Book.otf');
+	src:font-url('Avenir-Book.otf');
 }
 
 .av{
@@ -43,7 +43,7 @@
 
 @font-face {
 	font-family: 'Avenir-heavy';
-	src:url('fonts/Avenir-Heavy.otf');
+	src:font-url('Avenir-Heavy.otf');
 }
 
 .avh{
@@ -52,7 +52,7 @@
 
 @font-face {
 	font-family: 'Garamond bold';
-	src:url('fonts/Garamond bold.ttf');
+	src:font-url('Garamond-Bold.ttf');
 }
 
 .garb{
@@ -61,7 +61,7 @@
 
 @font-face {
 	font-family: 'Garamond italic';
-	src:url('fonts/Garamond-Italic.ttf');
+	src:font-url('Garamond-Italic.ttf');
 }
 
 .gari{
@@ -70,7 +70,7 @@
 
 @font-face {
 	font-family: 'Garamond';
-	src:url('fonts/Garamond.ttf');
+	src:font-url('Garamond.ttf');
 }
 
 .gar{
@@ -79,7 +79,7 @@
 
 @font-face {
 	font-family: 'Gotham';
-	src:url('fonts/Gotham-Black.otf');
+	src:font-url('Gotham-Black.otf');
 }
 
 .got{
@@ -88,7 +88,7 @@
 
 @font-face {
 	font-family: 'Helvetica bold';
-	src:url('fonts/Helvetica-Bold.ttf');
+	src:font-url('Helvetica-Bold.ttf');
 }
 
 .helb{
@@ -97,7 +97,7 @@
 
 @font-face {
 	font-family: 'Helvetica-Light';
-	src:url('fonts/Helvetica-Light.ttf');
+	src:font-url('Helvetica-Light.ttf');
 }
 
 .hell{
@@ -106,7 +106,7 @@
 
 @font-face {
 	font-family: 'Helvetica';
-	src:url('fonts/Helvetica.ttf');
+	src:font-url('Helvetica.ttf');
 }
 
 .hel{
@@ -115,7 +115,7 @@
 
 @font-face {
 	font-family: 'Helvetica Neue light';
-	src:url('fonts/HelveticaNeue-UltraLight.otf');
+	src:font-url('HelveticaNeue-UltraLight.otf');
 }
 
 .henl{
@@ -124,7 +124,7 @@
 
 @font-face {
 	font-family: 'Helvetica Neue bold';
-	src:url('fonts/HelveticaNeue-Bold.otf');
+	src:font-url('HelveticaNeue-Bold.otf');
 }
 
 .henb{
@@ -133,7 +133,7 @@
 
 @font-face {
 	font-family: 'Helvetica Neue';
-	src:url('fonts/HelveticaNeue.otf');
+	src:font-url('HelveticaNeue.otf');
 }
 
 .hen{
@@ -142,7 +142,7 @@
 
 @font-face {
 	font-family: 'Proxima-Nova bold';
-	src:url('fonts/proxima-nova-bold.ttf');
+	src:font-url('proxima-nova-bold.ttf');
 }
 
 .prob{
@@ -151,7 +151,7 @@
 
 @font-face {
 	font-family: 'Proxima-Nova';
-	src:url('fonts/proxima-nova-regular.ttf');
+	src:font-url('proxima-nova-regular.ttf');
 }
 
 .prox{
@@ -160,7 +160,7 @@
 
 @font-face {
 	font-family: 'Proxima-Nova thin';
-	src:url('fonts/proxima-nova-thin.ttf');
+	src:font-url('proxima-nova-thin.ttf');
 }
 
 .prot{
@@ -209,42 +209,26 @@ h3{
 
 .white{
 	padding: 40px;
+	padding-top: 20px;
 }
 
 .blue{
 	background: #00366d;
 	padding: 40px;
+	padding-top:20px;
 	margin: 0;
 	color: white;
 }
 
-.blue-index{
-	background: #00366d;
-	padding: 40px;
-	color: white;
-	margin: 20px;
-	max-width: 60%;
-	  box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
-
-}
 
 .yellow{
 	background: #fdde38;
+	
 	padding: 40px;
+	padding-top:30px;
 	margin: 0;
 }
 
-.yellow-index{
-	background: #fdde38;
-	padding: 40px;
-	position: absolute;
-	right: 100px;
-	top: 280px;
-	width: 40%;
-	z-index: 50px;
-	  box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
-
-}
 
 .icon-black{
 	font-size: 48px;
